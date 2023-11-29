@@ -211,6 +211,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm
 
 # Media
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33 \
+    libstagefright_softomx_plugin.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     $(LOCAL_PATH)/configs/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml \
