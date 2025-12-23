@@ -202,10 +202,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay-service.sdm
-
 # Media
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33 \
